@@ -1,0 +1,6 @@
+INFO:root:Started 'move' operation from /Users/nikitazhmurko/Desktop/a1 to /Users/nikitazhmurko/Desktop/w1 in 3 threads.
+INFO:root::Thread #0 moved /Users/nikitazhmurko/Desktop/a1/asdasdas.txt file to /Users/nikitazhmurko/Desktop/w1
+INFO:root::Thread #2 moved /Users/nikitazhmurko/Desktop/a1/zxczxczxc.txt file to /Users/nikitazhmurko/Desktop/w1
+INFO:root::Thread #2 moved /Users/nikitazhmurko/Desktop/a1/qweqwe.txt file to /Users/nikitazhmurko/Desktop/w1
+INFO:root:Started 'copy' operation from /Users/nikitazhmurko/Desktop/w1 to /Users/nikitazhmurko/Desktop/a1 in 3 threads.
+INFO:root::Thread #0 copied folder by /Users/nikitazhmurko/Desktop/w1 to /Users/nikitazhmurko/Desktop/a1
