@@ -4,7 +4,6 @@ import logging
 from distutils.dir_util import copy_tree
 from queue import Queue
 from threading import Thread, current_thread, Condition
-from time import sleep
 
 logging.basicConfig(filename='logs.log', level=logging.DEBUG)
 
@@ -98,7 +97,6 @@ class FileManagerUtility:
 
                 except shutil.Error as err:
                     logging.error(err.args[0])
-                sleep(0.1)
 
     def _move(self,) -> None:
         while True:
@@ -125,4 +123,3 @@ class FileManagerUtility:
 
                 except shutil.Error as err:
                     logging.error(err.args[0])
-                sleep(0.1)
